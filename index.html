@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+      <div class="report-container">
+        <div class="user-top-container color-user">
+          <figure class="user-image">
+            <img src="./images/image-jeremy.png" alt="Jeremy Robson" />
+          </figure>
+          <div>
+        <h3 class="h3-user-sub-title">Report for</h3>
+        <h1 class="user-title">Jeremy Robson</h1>
+        </div>
+        </div>
+        <div class="user-bottom-container">
+          <a href="#" class="active">Daily</a>
+          <a href="#">Weekly</a>
+          <a href="#">Monthly</a>
+        </div>
+      </div>
+
+      <div class="work-container data-container">
+
+        <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3" id="title">Work</h2>
+            <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="work-hours">5hrs</h1>
+            <p class="h3 last-week" id="work-last-week">Last week - 7hrs</p>
+          </div>
+
+        </div>
+
+        <div class="bottom-container color-work">
+        </div>
+        
+      </div>
+
+      <!-- Play -->
+      <div class="play-container data-container">
+       <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3">Play</h2>
+              <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="play-hours">1hrs</h1>
+            <p class="h3 last-week" id="play-last-week">Last week - 2hrs</p>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-container color-play">
+        </div>
+      </div>
+
+      <!-- Study -->
+      <div class="study-container data-container">
+        <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3">Study</h2>
+              <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="study-hours">0hrs</h1>
+            <p class="h3 last-week" id="study-last-week">Last week - 1hrs</p>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-container color-study">
+        </div>
+      </div>
+
+      <div class="exercise-container data-container">
+        <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3">Exercise</h2>
+              <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="exercise-hours">1hrs</h1>
+            <p class="h3 last-week" id="exercise-last-week">Last week - 1hrs</p>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-container color-exercise">
+        </div>
+      </div>
+
+      <!-- Social -->
+      <div class="social-container data-container">
+        <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3">Social</h2>
+              <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="social-hours">1hrs</h1>
+            <p class="h3 last-week" id="social-last-week">Last week - 3hrs</p>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-container color-social">
+        </div>
+      </div>
+
+      <!-- Self Care -->
+      <div class="self-care-container data-container">
+        <div class="top-container dark-blue">
+
+          <div class="top-container-top">
+            <h2 class="h3">Self Care</h2>
+              <p class="dots">...</p>
+          </div>
+          <div class="top-container-bottom">
+            <h1 class="hours-main" id="self-care-hours">0hrs</h1>
+            <p class="h3 last-week" id="self-care-last-week">Last week - 1hrs</p>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-container color-self-care">
+        </div>
+      </div>
+
+      
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
